@@ -17,6 +17,9 @@ Plug 'evanleck/vim-svelte'
 Plug 'rust-lang/rust.vim'
 Plug 'leafgarland/typescript-vim'
 
+" CoC & related
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
 
 " --------------------------------------------------
