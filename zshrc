@@ -16,7 +16,7 @@ compinit
 # Colors and the prompt
 autoload -U colors && colors
 # PROMPT="%T [%~] > "
-PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%~%f%b %# '
+PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{cyan}%~%f%b %# '
 autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
 precmd_functions+=( precmd_vcs_info )
