@@ -14,7 +14,7 @@ set tabstop=3
 set softtabstop=3
 set shiftwidth=3
 set expandtab
-set smartindent
+" set smartindent
 
 " Searching
 set nohlsearch
@@ -31,6 +31,8 @@ set hidden
 set noswapfile
 set undodir=~/.config/nvim/undodir
 set undofile
+set nobackup
+set nowritebackup
 
 " Misc
 set termguicolors
