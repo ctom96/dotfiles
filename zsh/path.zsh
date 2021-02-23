@@ -9,3 +9,6 @@ export PATH="$PATH:/usr/local/go/bin"
 export GOPATH="/home/ctom96/go"
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
+
+# monero cli
+export PATH="$PATH:~/monero"
