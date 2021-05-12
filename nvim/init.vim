@@ -9,6 +9,9 @@ call plug#begin('~/.config/nvim/plugged')
 " Colorschemes
 Plug 'NLKNguyen/papercolor-theme'
 
+" Useful
+Plug 'jiangmiao/auto-pairs' " auto bracket stuff
+
 " Language Syntax Highlighting
 Plug 'pangloss/vim-javascript'
 Plug 'fatih/vim-go'
